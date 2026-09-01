@@ -25,6 +25,7 @@ body {
 }
 
 .header nav {
+    display: inline-block;
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,13 +33,11 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
-
-.header nav ul li {
+.header nav a {
     display: inline-block;
     margin-left: 25px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 a {
